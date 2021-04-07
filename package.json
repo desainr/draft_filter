@@ -1,7 +1,7 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
+  "name": "draft_filter",
+  "version": "1.0.0",
+  "description": "Azure Function to construct filter and retrieve data from Azure Postgres",
   "scripts": {
     "test": "echo \"No tests yet...\""
   },
