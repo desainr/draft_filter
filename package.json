@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Azure Function to construct filter and retrieve data from Azure Postgres",
   "scripts": {
+    "start": "func start",
+    "publish": "func azure functionapp publish nfl-draft-api",
     "test": "echo \"No tests yet...\""
   },
   "author": "",
