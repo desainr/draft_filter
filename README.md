@@ -1,2 +1,3 @@
-# draft_filter_api
-Handles the backend filtering of the data
+# draft_filter
+
+Pretty simple Azure Function that takes in a query and returns results from nfldrafthistory Azure Postgres DB.
