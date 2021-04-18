@@ -6,9 +6,9 @@ module.exports = async function (context, req) {
 
     let result = [];
     if (req.method === 'GET') {
-        const filter = buildFilter(req.query);
+        const query = buildFilter(req.query);
 
-        result = await executeQuery(filter);
+        result = await executeQuery(query);
     }
 
     context.res = {
