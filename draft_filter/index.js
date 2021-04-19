@@ -3,7 +3,7 @@ const { executeQuery, buildFilter } = require('./lib');
 
 module.exports = async function (context, req) {
     context.log('Executing query request...');
-    context.log('Test');
+
     let result = [];
     let status = 200;
 
