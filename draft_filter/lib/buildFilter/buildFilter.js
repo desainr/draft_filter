@@ -5,7 +5,7 @@ const buildSqlQuery = (queryObj) => {
     SELECT
       p.player as player,
       t.id as team_id,
-      t.team as team,
+      t.name as team,
       p.college as college,
       p.position as position,
       dp.pick as pick,
