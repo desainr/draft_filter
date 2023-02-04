@@ -12,6 +12,7 @@ module.exports = async function (context, req) {
 
         try {
             query = buildFilter(req.query);
+            context.log('Submitting query: ' + query);
         } catch (ex) {
             context.log({msg: 'Error occurred while parsing query parameters', ex, query: req.query});
             status = 400;
